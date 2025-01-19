@@ -1,0 +1,23 @@
+.item {
+    text-decoration: none;
+    color: var(--header-color);
+
+    padding: 10px 12px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    transition-duration: 0.2s;
+
+    @media (max-width: 993px) {
+        padding: 8px 0;
+    }
+}
+
+.item:hover {
+    color: var(--color-style);
+}
+
+.active {
+    color: var(--color-style);
+}

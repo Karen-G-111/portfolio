@@ -1,0 +1,21 @@
+.logo {
+    display: inline-block;
+    font-size: 30px;
+
+    max-height: 40px;
+    height: 40px;
+    line-height: 40px;
+
+    color: var(--header-color);
+
+    width: 100%;
+    cursor: pointer;
+}
+
+.G {
+    font-weight: 600;
+    font-size: 40px;
+
+    color: var(--color-style);
+
+}

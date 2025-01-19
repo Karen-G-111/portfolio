@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+
+    margin-bottom: 32px;
+}
+
+.facebook,
+.linked,
+.instagram,
+.twitter {
+    transition-duration: 0.3s;
+}
+
+.facebook:hover {
+    background-color: #316ff6;
+}
+
+.linked:hover {
+    background-color: #0077b5;
+}
+
+.twitter:hover {
+    background-color: #0f1318;
+}
+
+.instagram:hover {
+    background-color: #c92e80;
+}

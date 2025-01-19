@@ -1,0 +1,56 @@
+.body {
+    display: flex;
+    column-gap: 16px;
+    align-items: flex-start;
+    font-size: 0;
+}
+
+.body>* {
+    width: calc(50% - 8px);
+    min-width: calc(50% - 8px);
+
+    @media (max-width: 1200px) {
+        width: calc(100%);
+        min-width: calc(100%);
+    }
+}
+
+.btns {
+    display: flex;
+    font-size: 0;
+
+    column-gap: 10px;
+
+    position: absolute;
+    right: 0;
+    top: -56px;
+}
+
+.btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 33px;
+    height: 33px;
+
+    border: 1px solid var(--photo-border);
+    border-radius: 6px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    border-color: var(--color-style);
+}
+
+.btns button:hover svg {
+    fill: var(--color-style);
+}
+
+
+.btns svg {
+    width: 8.75px;
+    fill: var(--header-color-2);
+}

@@ -1,0 +1,14 @@
+.block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    row-gap: 1px;
+    column-gap: 25px;
+
+    overflow: hidden;
+
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

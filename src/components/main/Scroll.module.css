@@ -1,0 +1,17 @@
+.main {
+    position: relative;
+    user-select: none;
+}
+
+.main>*:first-child {
+    overflow: hidden;
+}
+
+.main>*:first-child>* {
+    display: flex;
+    column-gap: 16px;
+    align-items: flex-start;
+    font-size: 0;
+
+    transition-duration: var(--slide-time);
+}

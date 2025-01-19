@@ -1,0 +1,61 @@
+.block {
+    display: flex;
+    padding: 14px;
+    width: 100%;
+
+    background-color: var(--photo-background);
+    border-radius: 6px;
+}
+
+.textinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 12px;
+}
+
+.icon {
+    width: 58px;
+    height: 58px;
+
+    @media(max-width: 576px) {
+        width: 50px;
+        height: 50px;
+    }
+
+    border-radius: 5px;
+
+    background-color: var(--background-color);
+}
+
+.icon>div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    height: 21.6px;
+    fill: var(--icon-color);
+}
+
+.text {
+    color: var(--header-color);
+    font-size: 16px;
+    font-weight: 500;
+
+    @media(max-width: 576px) {
+        font-size: 12px;
+    }
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 14px;
+
+    margin-bottom: 4px;
+}

@@ -1,0 +1,46 @@
+.img {
+    fill: red;
+}
+
+.block {
+    margin-left: auto;
+
+    width: 46px;
+    height: 46px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+}
+
+
+.block>svg {
+    width: 22px;
+    height: 21.6px;
+}
+
+.sun {
+    background-color: #ffcc853d;
+    fill: #e5780b;
+}
+
+.sun:hover {
+    background-color: #e5780b;
+    fill: white;
+}
+
+.moon {
+    background-color: #85a9ff3d;
+    fill: #3874ff
+}
+
+.moon:hover {
+    background-color: #637ebe;
+    fill: #ffffff;
+}

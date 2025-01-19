@@ -1,0 +1,15 @@
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.item {
+    padding: 8px 12px;
+    color: var(--header-color);
+    font-size: 14px;
+    font-weight: 400;
+
+    background-color: var(--photo-background);
+    border-radius: 6px;
+}

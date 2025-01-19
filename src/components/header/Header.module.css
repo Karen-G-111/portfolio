@@ -1,0 +1,48 @@
+.header {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+
+    padding: 22px 32px;
+    margin: 24px 0 24px 0;
+
+    background-color: var(--background-color-header);
+
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    display: flex;
+
+    @media (max-width: 996px) {
+        padding: 16px 20px;
+    }
+
+    backdrop-filter: blur(15px);
+}
+
+
+
+.ends {
+    width: 17%;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    flex-grow: 1;
+
+    display: flex;
+    font-size: 0;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+}

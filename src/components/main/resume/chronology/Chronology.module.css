@@ -1,0 +1,10 @@
+.block {
+    border-left: 2px solid var(--color-style);
+    padding-left: 16px;
+    padding-right: 12px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 49px;
+    overflow: hidden;
+}

@@ -1,0 +1,42 @@
+.text {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 8px;
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.percent {
+    position: relative;
+    width: 100%;
+
+    display: inline-block;
+    background-color: var(--fill-color);
+    height: 7px;
+
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.percent span {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color-style);
+    height: 100%;
+}
+
+.item {
+    font-size: 0;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}

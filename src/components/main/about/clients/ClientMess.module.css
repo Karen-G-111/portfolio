@@ -1,0 +1,53 @@
+.block {
+    background-color: var(--photo-background);
+    padding: 24px;
+
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.message {
+    color: var(--text-color);
+}
+
+.info {
+    font-size: 0;
+    display: flex;
+
+    margin-bottom: 24px;
+}
+
+.img {
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.infoText {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.name {
+    color: var(--header-color);
+    font-weight: 600;
+}
+
+.prof {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.stars svg {
+    fill: #FED152;
+    width: 15.75px;
+}
+
+.stars {
+    display: flex;
+    column-gap: 3px;
+
+    height: 19.2px;
+}

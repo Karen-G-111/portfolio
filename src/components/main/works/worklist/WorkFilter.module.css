@@ -1,0 +1,39 @@
+.list {
+    list-style: none;
+
+    display: flex;
+    column-gap: 20px;
+}
+
+.item {
+    font-size: 14px;
+    color: var(--header-color);
+    font-weight: 500;
+    position: relative;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-bottom: 8px;
+    transition-duration: 0.4;
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-style);
+    border-radius: 3px;
+    width: 30px;
+    opacity: 0;
+}
+
+.item:hover,
+.active {
+    color: var(--color-style);
+}
+
+.active::after {
+    opacity: 1;
+}

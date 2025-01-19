@@ -1,0 +1,23 @@
+.block {
+    border-radius: 6px;
+    font-size: 0;
+
+    background-color: var(--photo-background);
+
+    width: calc(20% - 4 * 16px / 5);
+    min-width: calc(20% - 4 * 16px / 5);
+
+    @media (max-width: 936px) {
+        width: calc(25% - 3 * 16px / 4);
+        min-width: calc(25% - 3 * 16px / 4);
+    }
+
+    @media (max-width: 696px) {
+        width: calc(100% / 3 - 2 * 16px / 3);
+        min-width: calc(100% / 3 - 2 * 16px / 3);
+    }
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,76 @@
+.block {
+    background-color: var(--photo-background);
+    padding: 16px;
+
+    border-radius: 6px;
+}
+
+.text {
+    margin-bottom: 24px;
+    color: var(--text-color);
+
+    display: flex;
+    align-items: center;
+
+    transition-duration: 0.3s;
+}
+
+.text:hover {
+    color: var(--color-style);
+}
+
+.text:hover .icon {
+    fill: var(--color-style);
+}
+
+.icon {
+    width: 12px;
+    display: inline-block;
+    fill: var(--text-color);
+
+    margin-right: 8px;
+    font-size: 0;
+    transition-duration: 0.3s;
+}
+
+.note span {
+    color: var(--text-color);
+    position: relative;
+
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.note span::after {
+    content: '';
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: black;
+    border-radius: 50%;
+
+    left: -16px;
+    top: 5px
+}
+
+.html::after {
+    background-color: #fb5200 !important;
+}
+
+.css::after {
+    background-color: #563d7c !important;
+}
+
+.sass::after {
+    background-color: #f75eee !important;
+}
+
+.js::after {
+    background-color: #efd81d !important;
+}
+
+.react::after {
+    background-color: #34a853 !important;
+}

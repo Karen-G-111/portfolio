@@ -1,0 +1,19 @@
+.footer {
+    padding: 28px 16px;
+    background-color: var(--photo-background);
+}
+
+.anotherFooter {
+    background-color: transparent;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--color-style);
+    cursor: pointer;
+}

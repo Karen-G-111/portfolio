@@ -1,0 +1,87 @@
+.name {
+    grid-area: a1;
+}
+
+.email {
+    grid-area: a2;
+}
+
+.subject {
+    grid-area: b;
+}
+
+.text {
+    grid-area: c;
+}
+
+.a {
+    display: grid;
+    grid-template-areas:
+        "a1 a2"
+        "b b"
+        "c c";
+
+    gap: 16px;
+
+    margin-bottom: 16px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        grid-template-areas:
+            "a1"
+            "a2"
+            "b"
+            "c";
+    }
+}
+
+.input {
+    font-family: "Poppins";
+    background-color: transparent;
+    border: 1px solid var(--fill-color);
+    padding: 11px 20px;
+    border-radius: 6px;
+    line-height: 30px;
+    outline: none;
+    color: var(--text-color);
+}
+
+.input:active {
+    border-color: var(--color-style);
+}
+
+.input::placeholder {
+    color: var(--text-color);
+}
+
+.input:focus-visible {
+    border-color: var(--color-style);
+}
+
+textarea.input {
+    height: 132px;
+    resize: vertical;
+    min-height: 38px;
+}
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+
+    background-color: var(--color-style);
+    border-radius: 14px;
+    color: white;
+    transition-duration: 0.4s;
+    margin-bottom: -40px;
+}
+
+.button:hover {
+    box-shadow: inset 0px 0px 135px rgba(0, 0, 0, 0.25);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

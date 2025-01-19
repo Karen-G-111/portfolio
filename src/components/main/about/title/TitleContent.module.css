@@ -1,0 +1,23 @@
+.hello {
+    color: var(--header-color-2);
+    font-size: 44px;
+    line-height: 1.3em;
+
+    @media (max-width:576px) {
+        font-size: 36px;
+    }
+
+    margin-bottom: 24px;
+}
+
+.describe {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.8em;
+
+    margin-bottom: 40px;
+}
+
+.name {
+    color: var(--color-style);
+}

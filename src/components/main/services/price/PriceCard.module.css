@@ -1,0 +1,120 @@
+.card {
+    border: 1px solid var(--border-color-d);
+    border-radius: 6px;
+
+    padding: 28px;
+
+
+
+    @media (max-width: 993px) {
+        padding: 24px;
+    }
+
+    background-color: var(--body-background-c);
+}
+
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 16px;
+    color: var(--header-color);
+}
+
+.describe {
+    color: var(--text-color);
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.cost {
+    color: var(--text-color);
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.cost span {
+    font-size: 36px;
+    color: var(--header-color);
+    font-weight: 500;
+    line-height: 1.1em;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+
+    font-weight: 600;
+    font-size: 16px;
+
+    color: var(--header-color);
+    border: 1px solid var(--border-color-l);
+    border-radius: 50px;
+    background-color: var(--button-background);
+
+    margin-bottom: 8px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-style);
+    color: white;
+}
+
+.list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 1px;
+
+    font-size: 0;
+    overflow: hidden;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--body-background-c);
+
+    padding: 16px 0;
+    color: var(--blur-color);
+    position: relative;
+}
+
+.list li:last-child {
+    padding-bottom: 0;
+}
+
+.list li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--border-color);
+    bottom: -1px;
+    left: 0;
+}
+
+.list span {
+    font-size: 16px;
+}
+
+.list svg {
+    width: 16px;
+    margin-right: 11px;
+    fill: var(--blur-color);
+}
+
+.ok svg {
+    fill: var(--color-style);
+}
+
+.ok span {
+    color: var(--header-color);
+}

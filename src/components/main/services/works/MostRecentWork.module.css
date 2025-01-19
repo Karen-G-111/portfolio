@@ -1,0 +1,36 @@
+.svg {
+    width: 46px;
+    height: 46px;
+
+    display: inline-block;
+
+    margin-bottom: 16px;
+}
+
+.svg svg {
+    width: 100%;
+    fill: var(--header-color-2);
+}
+
+.card {
+    padding: 28px;
+    border: 1px solid var(--border-color-d);
+    border-radius: 6px;
+
+    @media (max-width: 993px) {
+        padding: 24px;
+    }
+
+    background-color: var(--body-background-c);
+}
+
+.title {
+    color: var(--header-color);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.text {
+    color: var(--text-color);
+}

@@ -1,0 +1,21 @@
+.img {
+    width: 24px;
+    height: 24px;
+}
+
+.text {
+    color: var(--header-color-2);
+    font-weight: 600;
+
+    margin-left: 8px;
+}
+
+.card {
+    background-color: var(--photo-background);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 16px;
+}
