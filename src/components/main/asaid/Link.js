@@ -1,8 +1,8 @@
 import style from './Link.module.css'
 
-function Link({ svg, hover }) {
+function Link({ svg, hover, to }) {
     return (<div className={`${style.block} ${hover}`}>
-        <a>
+        <a href={to} target='_blank'>
             {svg}
         </a>
     </div>)

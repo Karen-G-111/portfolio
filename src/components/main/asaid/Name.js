@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import style from './Name.module.css';
 
 let prof = {
-    projs: ["I'm a Frontand developer", 'Designer'],
+    projs: ["I'm a Frontand developer"],
 };
 
 function Name() {

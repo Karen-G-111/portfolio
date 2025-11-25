@@ -1,10 +1,13 @@
 import style from "./Photo.module.css"
 
-import img from "./test.png";
+import img from "./photo.jpg";
 
 function Photo() {
     return (<div className={style.photo}>
-        <img src={''} />
+        <img
+            alt="photo"
+            src={img} />
+
         <span className={style.circle}><span><span>Abailable for work</span></span></span>
     </div>)
 }
