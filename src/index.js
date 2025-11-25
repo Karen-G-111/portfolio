@@ -81,7 +81,7 @@ const router = createBrowserRouter([
       }
     ],
   }
-])
+], { basename: "/portfolio" } /*delete */)
 
 root.render(
   <RouterProvider router={router} />
